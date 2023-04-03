@@ -387,6 +387,13 @@
                             "sigalert.com"
                         ],
                         "reason": "https://github.com/duckduckgo/privacy-configuration/issues/774"
+                    },
+                    {
+                        "rule": "d9k0w0y3delq8.cloudfront.net",
+                        "domains": [
+                            "hoyoverse.com
+                        ],
+                        "reason": "https://github.com/duckduckgo/privacy-configuration/issues/800"
                     }
                 ]
             },
