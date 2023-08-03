@@ -20,6 +20,10 @@
             "reason": "https://github.com/duckduckgo/privacy-configuration/issues/965"
         },
         {
+            "domain": "guard.io",
+            "reason": "https://github.com/duckduckgo/privacy-configuration/issues/592"
+        },
+        {
             "domain": "kbb.com",
             "reason": "Adblocker wall"
         },
