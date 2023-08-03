@@ -20,10 +20,6 @@
             "reason": "https://github.com/duckduckgo/privacy-configuration/issues/965"
         },
         {
-            "domain": "guard.io",
-            "reason": "https://github.com/duckduckgo/privacy-configuration/issues/592"
-        },
-        {
             "domain": "kbb.com",
             "reason": "Adblocker wall"
         },
@@ -768,6 +764,15 @@
                     {
                         "selector": ":is(div:has(> iframe[src*='prid=19030167']))",
                         "type": "hide"
+                    }
+                ]
+            },
+            {
+                "domain": "guard.io",
+                "rules": [
+                    {
+                        "selector": "#credential_picker_container",
+                        "type": "override"
                     }
                 ]
             },
